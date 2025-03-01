@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('https://www.garage.movemycar.in/assets/images/content-image-2.png');
+    height: 100vh; /* Teljes képernyős magasság */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax hatás */
+}
+
+.content {
+    padding: 200px;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;   /* Vertikálisan középre */
+    justify-content: center; /* Horizontálisan középre */
+    height: 100vh;  /* Teljes képernyőmagasság */
+    text-align: center;
+}
+
