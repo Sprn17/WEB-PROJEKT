@@ -3,6 +3,9 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #1C1C1C;
+    color: #E0E0E0; 
+    font-family: Arial, sans-serif;
 }
 
 .header {
@@ -20,9 +23,26 @@ body, html {
 
 .header {
     display: flex;
-    align-items: center;   /* Vertikálisan középre */
-    justify-content: center; /* Horizontálisan középre */
-    height: 100vh;  /* Teljes képernyőmagasság */
+    align-items: center;   
+    justify-content: center; 
+    height: 100vh;  
     text-align: center;
 }
+
+.footer {
+    background-color: #f0f0f0; 
+    text-align: center; 
+    padding: 20px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0; 
+    color: #333; 
+    font-size: 14px; 
+}
+
+
 
