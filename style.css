@@ -46,6 +46,13 @@ body, html {
 
 .pricelist td, th {
     border: 1px solid white;
+    text-align: center;
+    
+}
+
+.tyrelist td, th {
+    border: 1px solid white;
+    width: 30%;
 }
 
 .paros{
@@ -79,4 +86,8 @@ nav
  {
     margin-left: 100px;
     
+ }
+
+ .centeralign{
+    text-align: center;
  }
