@@ -83,7 +83,6 @@ body, html {
     
  }
 
-<<<<<<< HEAD
  .navbar {
     background-color: white;
     font-family: 'Poppins', sans-serif;
@@ -181,8 +180,65 @@ li a:hover {
     display: flex;
     align-items: center;
 }
-=======
- .centeralign{
+
+.container {
+    max-width: 900px;
+    margin: 40px 0;
+    padding: 20px;
+    background: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* GRID LAYOUT */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+/* FLEXBOX A SZÖVEGRE */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+.map {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* GOMBOK STÍLUSA */
+.button {
+    display: inline-block;
+    background: #ffcc00;
+    color: #222;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
     text-align: center;
- }
->>>>>>> ee5cf1625277b7166571dd862d7f17424c3aab11
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #ffaa00;
+}
+
+/* IKONOS STÍLUS */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-info i {
+    color: #ffcc00;
+    margin-right: 10px;
+}
