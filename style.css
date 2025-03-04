@@ -44,5 +44,12 @@ body, html {
     font-size: 14px; 
 }
 
+.pricelist td, th {
+    border: 1px solid white;
+}
+
+.paros{
+    background-color: grey;
+}
 
 
