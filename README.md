@@ -1,5 +1,7 @@
-# WEB-PROJEKT
-WEB01 tantárgyhoz való projekt feladat with my friends
+# AutóSzervíz oldal
+
+## Leírás
+> Egyszerű autószervíz oldal, amely tartalmazza az alapvető adatokat(Hol található? Árak), illetve online foglalásos rendszer is van.
 
 # Mi kell?
   5 kép oldalanként
