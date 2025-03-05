@@ -17,8 +17,10 @@ body, html {
 }
 
 .content {
-    padding: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
     font-size: 18px;
+    align-self: center;
 }
 
 .header {
@@ -33,9 +35,11 @@ body, html {
     background-color: #f0f0f0; 
     text-align: center; 
     padding: 20px; 
+    
     position: relative;
     bottom: 0;
     width: 100%;
+    
 }
 
 .footer p {
@@ -203,10 +207,6 @@ li a:hover {
     gap: 10px;
 }
 
-h2 {
-    color: #ffcc00;
-}
-
 .map {
     border-radius: 10px;
     overflow: hidden;
@@ -214,7 +214,7 @@ h2 {
 
 .button {
     display: inline-block;
-    background: #ffcc00;
+    background: #f0f0f0;
     color: #222;
     padding: 10px 15px;
     text-decoration: none;
@@ -245,4 +245,10 @@ h2 {
     justify-content: center; 
     align-items: center; 
     height: 100vh;
+    padding: 25%;
+}
+
+.centeralign{
+    text-align: center;
+
 }
