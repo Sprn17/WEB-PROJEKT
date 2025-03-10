@@ -17,10 +17,9 @@ body, html {
 }
 
 .content {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: 18px;
-    align-self: center;
+    padding:0% 10%;
+    display: flex;
+    justify-content: center; 
 }
 
 .header {
@@ -234,5 +233,8 @@ li a:hover {
 
 .centeralign{
     text-align: center;
+}
 
+.leftalign{
+    text-align: left;
 }
