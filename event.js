@@ -11,7 +11,7 @@ function validate() {
         alert("Rossz kilométer van megadva");
     }
 
-    if(value_name && value_car && value_number) {
+    if(value_name && value_car && value_number && value_number > 0) {
         alert("Mindegyik sikeresen kitöltve");
     }
 }
