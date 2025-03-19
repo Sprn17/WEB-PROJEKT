@@ -37,33 +37,56 @@
       <div class="content" id="asd">
         <div class="container ">
           <div class="row">
-                 Név: <t/><input type="text" name="fname" id="input_name" min="10"><br> 
-                Email:&nbsp;<input type="email" name="email"  min="10" maxlength="40" ><br> 
-                Autó márka:&nbsp;<input type="text" name="car" id="input_car"><br> 
-                Telephely: 
-                <select name="telephely"> 
-                    <option value="1">Kecskemét</option> 
-                    <option value="2">Budapest</option> 
-                    <option value="3">Székesfehérvár</option>  
-                </select><br> 
-                Futott Km:<input type="number" name="km" min="0" id="input_numb"><p id="response"></p> 
-                <h3>Üzemanyag:</h3> 
-                <label>Benzin</label><input type="radio" name="fuel"  value="1"><br/> 
-                <label>Dízel</label><input type="radio" name="fuel"  value="2"><br/>
-                <label>elektromos</label><input type="radio" name="fuel"  value="3"><br/>
-                <label>lpg</label><input type="radio" name="fuel"  value="4"> 
-                <h3>Szolgáltatás</h3> 
-                <label>asd</label><input type="checkbox" name="angol"> <br> 
-                <label>asd</label><input type="checkbox" name="nemet" checked="checked"> <br> 
-                <label>asd</label><input type="checkbox" name="egyeb">     
-                <p></p> 
-                <h3>Megjegyzés:</h3> 
-                <textarea name="megjegyzes" rows="4" cols="50"></textarea> 
-                <p></p> 
-               <label></label><input type="submit" value="Küldés" onclick="validate()">
-         </div>
-         </div>
-         </div>
+            <form>
+            <table>
+              <tr>
+                <td>Év:</td><td><input type="text" name="fname" id="input_name" min="10"></td> 
+              </tr>
+              <tr>
+                <td>Email:</td><td><input type="email" name="email"  min="10" maxlength="40" ></td> 
+              </tr><tr>
+                <td>Autó márka:</td><td><input type="text" name="car" id="input_car"></td> 
+              </tr><tr>
+                <td>futott km:</td><td><input type="number" name="km" min="0" id="input_numb"></td> 
+              </tr><tr>
+                <td>Telephely:</td><td><select name="telephely"> 
+                  <option value="1">Kecskemét</option> 
+                  <option value="2">Budapest</option> 
+                  <option value="3">Székesfehérvár</option>  
+              </select></td> 
+              </tr><tr>
+                <td colspan="2"><h3>Üzemanyag:</h3></td> 
+              </tr><tr>
+                <td colspan="2"><label>Benzin</label><input type="radio" name="fuel"  value="1"></td>
+              </tr><tr>
+                <td colspan="2"><label>Dízel</label><input type="radio" name="fuel"  value="2"></td>
+              </tr><tr>
+                <td colspan="2"><label>elektromos</label><input type="radio" name="fuel"  value="3"></td>
+              </tr><tr>
+                <td colspan="2"><label>lpg</label><input type="radio" name="fuel"  value="4"></td>
+              </tr><tr>
+                <td colspan="2"><h3>Szolgáltatás:</h3></td> 
+              </tr><tr>
+                <td colspan="2"><label>asd</label><input type="checkbox" name="angol"></td>
+              </tr><tr>
+                <td colspan="2"><label>asd</label><input type="checkbox" name="nemet" checked="checked"></td>
+              </tr><tr>
+                <td colspan="2"><label>asd</label><input type="checkbox" name="egyeb"></td>
+              </tr>
+              <td colspan="2"><h3>Megjegyzés:</h3></td> 
+            </tr><tr>
+              <td colspan="2"><textarea name="megjegyzes" rows="4" cols="50"></textarea></td>
+            </tr><tr>
+              <td colspan="2"><input type="submit" value="Küldés" onclick="validate()"></td>
+            </tr>
+            </table>
+            </form>
+
+
+
+         </div> 
+        </div>
+      </div>
           
 
       <footer class="footer" >
